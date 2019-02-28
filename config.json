@@ -1,0 +1,11 @@
+{
+	"name": "XBeeCellularNtripServer",
+	"mountpoint": "GRAZ00AUT0",
+	"caster": {
+		"host": "www.euref-ip.net",
+		"port": 2101,
+		"username": "aortner",
+		"password": "noreturn",
+		"version": 1
+	},
+}
