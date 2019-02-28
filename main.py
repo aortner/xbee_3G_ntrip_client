@@ -9,6 +9,10 @@ print("Starting XBee Cellular NTRIP client!")
 print("by Andreas Ortner Ver 2.0")
 print("an go on...")
 
+print("Parts of Source from Author: Nebojša Cvetković")
+print("Source: https://github.com/nebkat/xbee-cellular-ntrip-server/")
+
+
 config = open('config.json')
 c = json.load(config)
 config.close()
