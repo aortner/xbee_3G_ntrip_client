@@ -53,9 +53,8 @@ while True:
 	authorization = binascii.b2a_base64(bytes(c['caster']['username'] + ':' + c['caster']['password'], 'utf-8')).decode('ascii')
 		
 	s.write(("GET /%s HTTP/1.1\r\n"
-			"User-Agent: NTRIP iter.dk\r\n"
-			"Authorization: Basic %s\r\n"
 			"User-Agent: NTRIP Ortner2.0\r\n"
+			"Authorization: Basic %s\r\n"
 			"Accept: */*\r\nConnection: close\r\n"
 			"\r\n") %
 			(c['mountpoint'], authorization))
